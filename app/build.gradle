@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.controlpasajeros.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.controlpasajeros.app'
+        minSdk 24
+        targetSdk 35
+        versionCode 7
+        versionName '1.6'
+    }
+}
